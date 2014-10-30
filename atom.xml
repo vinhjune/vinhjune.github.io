@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[. Vinh June | Blog .]]></title>
   <link href="http://vinhjune.github.io/atom.xml" rel="self"/>
   <link href="http://vinhjune.github.io/"/>
   
-  <updated>2014-10-31T00:50:13+01:00</updated>
+  <updated>2014-10-31T00:52:52+01:00</updated>
   <id>http://vinhjune.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[VinhJune]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
