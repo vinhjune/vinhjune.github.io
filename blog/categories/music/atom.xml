@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Music | Vinh June | Blog]]></title>
   <link href="http://vinhjune.github.io/blog/categories/music/atom.xml" rel="self"/>
   <link href="http://vinhjune.github.io/"/>
-  <updated>2014-10-31T15:26:34+01:00</updated>
+  <updated>2014-10-31T15:27:31+01:00</updated>
   <id>http://vinhjune.github.io/</id>
   <author>
     <name><![CDATA[VinhJune]]></name>
@@ -19,9 +19,9 @@
     <updated>2014-10-31T15:18:31+01:00</updated>
     <id>http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac</id>
     <content type="html"><![CDATA[<p><div class="embed-video-container"><iframe src="http://www.youtube.com/embed/https://www.youtube.com/watch?v=r2aURZbVR38" allowfullscreen></iframe></div>
-Lemur is one of the most powerful and flexible MIDI controllers out there. When it comes to setting up Lemur though, things are a bit more involved than the usual USB MIDI controller. The following article will take you step-by-step on setting up Lemur and how to configure Traktor for use with a custom MIDI map. The video above shows all of the steps from start to finish. Though the focus is on Mac, many of the general principles will also apply to PC.</p>
-
-<h1 id="getting-the-software">Getting the Software:</h1>
+Lemur is one of the most powerful and flexible MIDI controllers out there. When it comes to setting up Lemur though, things are a bit more involved than the usual USB MIDI controller. The following article will take you step-by-step on setting up Lemur and how to configure Traktor for use with a custom MIDI map. The video above shows all of the steps from start to finish. Though the focus is on Mac, many of the general principles will also apply to PC.
+<!--more-->
+# Getting the Software:</p>
 
 <p>The Lemur app is available from the Apple App Store. Once purchased, head over to Liine.net and download the additional software that’s needed. The software includes two applications: the Lemur Editor which loads and edits templates, and the Lemur Daemon which works as a bridge between the audio software and the Lemur app.  You will need to register with Liine before downloading these. It’s also worth taking a look at the premium templates while at the site. There are hundreds of user templates created by the Lemur community and the premium ones are some of the best.</p>
 
