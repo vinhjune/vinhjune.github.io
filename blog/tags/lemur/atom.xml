@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: Lemur | Vinh June | Blog]]></title>
   <link href="http://vinhjune.github.io/blog/tags/lemur/atom.xml" rel="self"/>
   <link href="http://vinhjune.github.io/"/>
-  <updated>2014-10-31T15:46:05+01:00</updated>
+  <updated>2014-10-31T15:48:20+01:00</updated>
   <id>http://vinhjune.github.io/</id>
   <author>
     <name><![CDATA[VinhJune]]></name>
@@ -38,26 +38,14 @@ Lemur is one of the most powerful and flexible MIDI controllers out there. When 
   <li>
     <p>First, make sure the Lemur Daemon is running. When on, the Daemon shows up as a small iconin the upper right of the desktop. You can set the Daemon to always launch at startup by clicking on the icon and clicking “Setup Daemon Preferences” from the dropdown menu.</p>
   </li>
-  <li>
-    <p>Next it’s time to create the Ad Hoc network:</p>
+  <li>Next it’s time to create the Ad Hoc network:
+    <ul>
+      <li>Click on the WiFi symbol  in the upper right of the desktop and select “create network” from the dropdown menu.</li>
+      <li>After giving the network a new name or leaving it at default, hit the create button.</li>
+      <li>Now on your iPad go into the “WiFi” area in the settings. You should see the name of theÂ network you just created. Click on it and verify that the iPad connects to it.
+ Your iPad and host computer are now connected to eachother on their own ad hoc network.</li>
+    </ul>
   </li>
-</ol>
-
-<ul>
-  <li>
-    <p>Click on the WiFi symbol  in the upper right of the desktop and select “create network” from the dropdown menu.</p>
-  </li>
-  <li>
-    <p>After giving the network a new name or leaving it at default, hit the create button.</p>
-  </li>
-  <li>
-    <p>Now on your iPad go into the “WiFi” area in the settings. You should see the name of theÂ network you just created. Click on it and verify that the iPad connects to it.</p>
-  </li>
-</ul>
-
-<p>Your iPad and host computer are now connected to eachother on their own ad hoc network.</p>
-
-<ol>
   <li>Now you will connect the Lemur Editor on the host computer to the Lemur app on the iPad.</li>
 </ol>
 
