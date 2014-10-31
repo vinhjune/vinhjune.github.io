@@ -5,7 +5,7 @@
   <link href="http://vinhjune.github.io/atom.xml" rel="self"/>
   <link href="http://vinhjune.github.io/"/>
   
-  <updated>2014-10-31T15:30:41+01:00</updated>
+  <updated>2014-10-31T15:37:12+01:00</updated>
   <id>http://vinhjune.github.io/</id>
   <author>
     <name><![CDATA[VinhJune]]></name>
@@ -19,7 +19,9 @@
     <link href="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/"/>
     <updated>2014-10-31T15:18:31+01:00</updated>
     <id>http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac</id>
-    <content type="html"><![CDATA[<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/https://www.youtube.com/watch?v=r2aURZbVR38" allowfullscreen=""></iframe></div>
+    <content type="html"><![CDATA[<p><a href="http://www.youtube.com/watch?v=r2aURZbVR38">(http://img.youtube.com/vi/r2aURZbVR38/0.jpg)</a></p>
+
+<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/https://www.youtube.com/watch?v=r2aURZbVR38" allowfullscreen=""></iframe></div>
 <p>Lemur is one of the most powerful and flexible MIDI controllers out there. When it comes to setting up Lemur though, things are a bit more involved than the usual USB MIDI controller. The following article will take you step-by-step on setting up Lemur and how to configure Traktor for use with a custom MIDI map. The video above shows all of the steps from start to finish. Though the focus is on Mac, many of the general principles will also apply to PC.
 ]]></content>
   </entry>
