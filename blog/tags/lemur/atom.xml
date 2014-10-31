@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: Lemur | Vinh June | Blog]]></title>
   <link href="http://vinhjune.github.io/blog/tags/lemur/atom.xml" rel="self"/>
   <link href="http://vinhjune.github.io/"/>
-  <updated>2014-10-31T15:55:00+01:00</updated>
+  <updated>2014-10-31T15:55:56+01:00</updated>
   <id>http://vinhjune.github.io/</id>
   <author>
     <name><![CDATA[VinhJune]]></name>
@@ -40,9 +40,10 @@ Lemur is one of the most powerful and flexible MIDI controllers out there. When 
     <ul>
       <li>Click on the WiFi symbol  in the upper right of the desktop and select “create network” from the dropdown menu.</li>
       <li>After giving the network a new name or leaving it at default, hit the create button.</li>
-      <li>Now on your iPad go into the “WiFi” area in the settings. You should see the name of theÂ network you just created. Click on it and verify that the iPad connects to it.
-Your iPad and host computer are now connected to eachother on their own ad hoc network.</li>
+      <li>Now on your iPad go into the “WiFi” area in the settings. You should see the name of theÂ network you just created. Click on it and verify that the iPad connects to it.</li>
     </ul>
+
+    <p>Your iPad and host computer are now connected to eachother on their own ad hoc network.</p>
   </li>
   <li>Now you will connect the Lemur Editor on the host computer to the Lemur app on the iPad.
     <ul>
