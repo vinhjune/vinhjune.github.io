@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: Lemur | Vinh June | Blog]]></title>
   <link href="http://vinhjune.github.io/blog/tags/lemur/atom.xml" rel="self"/>
   <link href="http://vinhjune.github.io/"/>
-  <updated>2014-10-31T15:50:45+01:00</updated>
+  <updated>2014-10-31T15:51:40+01:00</updated>
   <id>http://vinhjune.github.io/</id>
   <author>
     <name><![CDATA[VinhJune]]></name>
@@ -35,9 +35,7 @@ Lemur is one of the most powerful and flexible MIDI controllers out there. When 
 <h1 id="steps-for-setting-up-lemur-on-a-mac">Steps for setting up Lemur on a Mac:</h1>
 
 <ol>
-  <li>
-    <p>First, make sure the Lemur Daemon is running. When on, the Daemon shows up as a small iconin the upper right of the desktop. You can set the Daemon to always launch at startup by clicking on the icon and clicking “Setup Daemon Preferences” from the dropdown menu.</p>
-  </li>
+  <li>First, make sure the Lemur Daemon is running. When on, the Daemon shows up as a small iconin the upper right of the desktop. You can set the Daemon to always launch at startup by clicking on the icon and clicking “Setup Daemon Preferences” from the dropdown menu.</li>
   <li>Next it’s time to create the Ad Hoc network:</li>
   <li>Click on the WiFi symbol  in the upper right of the desktop and select “create network” from the dropdown menu.</li>
   <li>After giving the network a new name or leaving it at default, hit the create button.</li>
