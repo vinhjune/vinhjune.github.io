@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: Lemur | Vinh June | Blog]]></title>
   <link href="http://vinhjune.github.io/blog/tags/lemur/atom.xml" rel="self"/>
   <link href="http://vinhjune.github.io/"/>
-  <updated>2014-10-31T15:48:20+01:00</updated>
+  <updated>2014-10-31T15:49:37+01:00</updated>
   <id>http://vinhjune.github.io/</id>
   <author>
     <name><![CDATA[VinhJune]]></name>
@@ -38,36 +38,17 @@ Lemur is one of the most powerful and flexible MIDI controllers out there. When 
   <li>
     <p>First, make sure the Lemur Daemon is running. When on, the Daemon shows up as a small iconin the upper right of the desktop. You can set the Daemon to always launch at startup by clicking on the icon and clicking “Setup Daemon Preferences” from the dropdown menu.</p>
   </li>
-  <li>Next it’s time to create the Ad Hoc network:
-    <ul>
-      <li>Click on the WiFi symbol  in the upper right of the desktop and select “create network” from the dropdown menu.</li>
-      <li>After giving the network a new name or leaving it at default, hit the create button.</li>
-      <li>Now on your iPad go into the “WiFi” area in the settings. You should see the name of theÂ network you just created. Click on it and verify that the iPad connects to it.
+  <li>Next it’s time to create the Ad Hoc network:</li>
+  <li>Click on the WiFi symbol  in the upper right of the desktop and select “create network” from the dropdown menu.</li>
+  <li>After giving the network a new name or leaving it at default, hit the create button.</li>
+  <li>Now on your iPad go into the “WiFi” area in the settings. You should see the name of theÂ network you just created. Click on it and verify that the iPad connects to it.
  Your iPad and host computer are now connected to eachother on their own ad hoc network.</li>
-    </ul>
-  </li>
   <li>Now you will connect the Lemur Editor on the host computer to the Lemur app on the iPad.</li>
-</ol>
-
-<ul>
-  <li>
-    <p>Run the Lemur App on your iPad.</p>
-  </li>
-  <li>
-    <p>Now start the Lemur Editor on the computer.</p>
-  </li>
-  <li>
-    <p>Once the Editor opens, press the small box with an arrow  in the upper right corner. Your iPad and its IP address should show up in the “connection” box that pops up. It may take a minute or two for your iPad to appear.</p>
-  </li>
-</ul>
-
-<ol>
-  <li>
-    <p>Double click on your iPad name in the “connection” box. The arrow button in the upper right of the Lemur Editor should turn into a green square indicating a connection with the iPad.</p>
-  </li>
-  <li>
-    <p>Finally it’s time to load a Lemur template into the iPad app. To do this, first open a template in the editor by double clicking on the .jzml file. Then click the arrow button   in the Editor and then double click your iPad in the “connection” box.</p>
-  </li>
+  <li>Run the Lemur App on your iPad.</li>
+  <li>Now start the Lemur Editor on the computer.</li>
+  <li>Once the Editor opens, press the small box with an arrow  in the upper right corner. Your iPad and its IP address should show up in the “connection” box that pops up. It may take a minute or two for your iPad to appear.</li>
+  <li>Double click on your iPad name in the “connection” box. The arrow button in the upper right of the Lemur Editor should turn into a green square indicating a connection with the iPad.</li>
+  <li>Finally it’s time to load a Lemur template into the iPad app. To do this, first open a template in the editor by double clicking on the .jzml file. Then click the arrow button   in the Editor and then double click your iPad in the “connection” box.</li>
 </ol>
 
 <p>Your Lemur template should now beÂ loaded onto the iPad and ready to control.</p>
