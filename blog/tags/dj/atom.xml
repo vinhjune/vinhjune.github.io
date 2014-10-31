@@ -4,7 +4,7 @@
   <title><![CDATA[Tag: dj | Vinh June | Blog]]></title>
   <link href="http://vinhjune.github.io/blog/tags/dj/atom.xml" rel="self"/>
   <link href="http://vinhjune.github.io/"/>
-  <updated>2014-10-31T15:24:43+01:00</updated>
+  <updated>2014-10-31T15:26:34+01:00</updated>
   <id>http://vinhjune.github.io/</id>
   <author>
     <name><![CDATA[VinhJune]]></name>
@@ -21,15 +21,15 @@
     <content type="html"><![CDATA[<p><div class="embed-video-container"><iframe src="http://www.youtube.com/embed/https://www.youtube.com/watch?v=r2aURZbVR38" allowfullscreen></iframe></div>
 Lemur is one of the most powerful and flexible MIDI controllers out there. When it comes to setting up Lemur though, things are a bit more involved than the usual USB MIDI controller. The following article will take you step-by-step on setting up Lemur and how to configure Traktor for use with a custom MIDI map. The video above shows all of the steps from start to finish. Though the focus is on Mac, many of the general principles will also apply to PC.</p>
 
-<p>Getting the Software:</p>
+<h1 id="getting-the-software">Getting the Software:</h1>
 
 <p>The Lemur app is available from the Apple App Store. Once purchased, head over to Liine.net and download the additional software that’s needed. The software includes two applications: the Lemur Editor which loads and edits templates, and the Lemur Daemon which works as a bridge between the audio software and the Lemur app.  You will need to register with Liine before downloading these. It’s also worth taking a look at the premium templates while at the site. There are hundreds of user templates created by the Lemur community and the premium ones are some of the best.</p>
 
-<p>Tech Overview:</p>
+<h1 id="tech-overview">Tech Overview:</h1>
 
 <p>It’s helpful to have a bit of an understanding of how the different parts of Lemur work together. A Lemur setup includes four main components.  The first is the Lemur iPad app.  The next two are the Lemur Editor and Lemur Daemon that you downloaded from the site. Last is the ad hoc network or hardwired MIDI connection.  An ad hoc network is a computer to computer wireless network that’s created on the host computer.  In a Lemur setup, this ad hoc network consists of two devices: the iPad with the Lemur app on it and the computer running the Lemur Editor and audio software to be controlled.</p>
 
-<p>Steps for setting up Lemur on a Mac:</p>
+<h1 id="steps-for-setting-up-lemur-on-a-mac">Steps for setting up Lemur on a Mac:</h1>
 
 <ol>
   <li>
@@ -66,7 +66,7 @@ Lemur is one of the most powerful and flexible MIDI controllers out there. When 
 
 <p>Your Lemur template should now beÂ loaded onto the iPad and ready to control.</p>
 
-<p>Extra Tips:</p>
+<h2 id="extra-tips">Extra Tips:</h2>
 
 <ol>
   <li>
@@ -77,11 +77,11 @@ Lemur is one of the most powerful and flexible MIDI controllers out there. When 
   </li>
 </ol>
 
-<p>Using Lemur with Audio Software:</p>
+<h1 id="using-lemur-with-audio-software">Using Lemur with Audio Software:</h1>
 
 <p>Now that you can load templates between the Lemur Editor and Lemur iPad app, let’s take a look at how to setup an audio program like Traktor to use Lemurs MIDI ports.</p>
 
-<p>Traktor Preference Settings:</p>
+<h2 id="traktor-preference-settings">Traktor Preference Settings:</h2>
 
 <ol>
   <li>
