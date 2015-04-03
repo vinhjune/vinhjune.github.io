@@ -1,4 +1,14 @@
-<p>
-  Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }} -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
+<div class="center_wrapper">
+  <div>
+    {%if site.google_analytics_tracking_id or site.affiliate%}
+    <a href="mailto:{{site.email}}">Contact</a>, <a href="{{root_url}}/privacy/">Privacy Policy</a>
+    {%else%}
+    <a href="mailto:{{site.email}}">Contact</a>
+    {%endif%}
+  </div>
+  <div>
+    Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }} -
+    <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+    <span class="credit">, with theme <a href="https://github.com/rcmdnk/octogray">octogray</a></span>
+  </div>
+</div>

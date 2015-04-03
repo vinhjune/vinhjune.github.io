@@ -3,4 +3,75 @@
   Imported. Load order is alphabetical and styles can be overriden in
   custom/_style.scss which is loaded after all plugin stylesheets.
 */
+// NailThumb
+.square-thumb {
+  width: 200px;
+  height: 200px;
+}
+.title-thumb {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
 
+// scrolltopcontrol
+.icon-scroll-up {
+  font-size: 3em;
+  color: #999999;
+  border: solid 2px #999999;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+#topcontrol {
+  z-index: 100;
+}
+
+// index_click_box
+.index_click_box{
+  cursor: pointer;
+}
+
+// images
+.imglink{
+  cursor: pointer;
+}
+
+// amazon
+.amazon-box{
+  @extend .group;
+}
+.amazon-img{
+  float: left; margin-right: 1.5em;
+  margin-bottom: .8em;
+}
+.amazon-txt{
+  float: left; margin-right: 1.5em;
+  margin-bottom: .8em;
+  width: 500px;
+}
+
+.imgres0 {
+  width: 320px;
+  height: 50px;
+}
+@media(min-width: 468px+$sidebar-width-medium+$body-border) {
+  .imgres0 {
+    width: 468px;
+    height: 60px;
+  }
+}
+@media(min-width: 728px+$sidebar-width-medium+$body-border) {
+  .imgres0 {
+    width: 728px;
+    height: 90px;
+  }
+}
+.imgresrec0, .imgresrec1, .imgresrecmid {
+  width: 300px;
+  height: 250px;
+}
+@media(min-width: 336px+$sidebar-width-medium+$body-border) {
+  .imgresrec0, .imgresrec1, .imgresrecmid { width: 336px; height: 280px;}
+}

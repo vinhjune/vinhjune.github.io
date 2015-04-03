@@ -1,29 +1,67 @@
 {% unless page.no_header %}
-  <header>
-    {% if index %}
-      <h1 class="entry-title"><a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
-    {% else %}
-      <h1 class="entry-title">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
-    {% endif %}
-    {% unless page.meta == false %}
-      <p class="meta">
-        {% include post/date.html %}{{ time }}
-        {% if site.disqus_short_name and page.comments != false and post.comments != false and site.disqus_show_comment_count == true %}
-           | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread"
-             data-disqus-identifier="{% if post.meta.disqus_id %}{{ post.meta.disqus_id }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">Comments</a>
-        {% endif %}
-      </p>
-    {% endunless %}
-  </header>
-{% endunless %}
-{% if index %}
-  <div class="entry-content">{{ content | excerpt }}</div>
-  {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
-  {% if excerpted == 'true' %}
-    <footer>
-      <a rel="full-article" href="{{ root_url }}{{ post.url }}">{{ site.excerpt_link }}</a>
-    </footer>
+<header>
+  {% unless page.meta == false %}
+  <p class="meta">
+    {% include post/date.html %}{{ time }}
+    {% include post/categories.html %}
+    {% include post/tags.html %}
+  </p>
+  {% endunless %}
+  {% if index %}
+  <h1 class="entry-title" itemprop="name headline"><a href="{{root_url}}{{post.url}}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+  {% else %}
+  {% if site.zenback_show == true and page.comments == true %}
+  <!-- zenback_title_begin -->
   {% endif %}
+  <h1 class="entry-title" itemprop="name headline">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+  {% if site.zenback_show == true and page.comments == true %}
+  <!-- zenback_title_end -->
+  {% endif %}
+  {%comment%}
+  {% if site.zenback_show == true and page.comments == true %}
+  <!-- zenback_date {{page.date}}-->
+  {% endif %}
+  {%endcomment%}
+  {% endif %}
+</header>
+{% endunless %}
+{% unless page.sharing == false %}{% include post/sharing.html %}{% endunless %}
+{% if index %}{% assign ogimage=post.ogimage %}{% else %}{% assign ogimage=page.ogimage %}{% endif %}
+{% if index %}
+<div class="entry-content index_click_box">
+  <div class="group">
+    {% if post.ogimage and post.no_ogimage != true %}
+    <div class="nailthumb-container title-thumb">
+      {%img pic val:ogimage%}
+    </div>
+    {% endif %}
+    {{ content | excerpt }}
+    {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+    {% if excerpted == 'true' %}
+    <a href="{{root_url}}{{post.url}}">{{site.excerpt_link}}</a>
+    {% endif %}
+  </div>
+</div>
 {% else %}
-<div class="entry-content">{{ content }}</div>
+{% if site.zenback_show == true and page.comments == true %}
+<!-- zenback_body_begin -->
+{% endif %}
+<div class="entry-content">
+  <div class="group">
+    {% if page.ogimage and page.no_ogimage != true %}
+    <div class="nailthumb-container title-thumb">
+      {%img pic val:ogimage%}
+    </div>
+    {% endif %}
+    {{ content | excerpt }}
+  </div>
+  <!-- more -->
+  <div class="group">
+    {{ content | excerpt_after }}
+  </div>
+</div>
+<!-- </div><footer> * pseudo line for the function raw_content() -->
+{% if site.zenback_show == true and page.comments == true %}
+<!-- zenback_body_end -->
+{% endif %}
 {% endif %}

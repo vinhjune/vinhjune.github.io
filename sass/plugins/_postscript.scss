@@ -1,0 +1,10 @@
+.postscript {
+  &:before, &:after {
+    display: block;
+    width: 100%;
+    height: 0.5em;
+    content: "";
+    background: $img-border top left repeat-x;
+    margin-top: -0.5em;
+  }
+}

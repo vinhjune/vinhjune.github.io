@@ -56,6 +56,14 @@ module OctopressLiquidFilters
     end
   end
 
+  def excerpt_after(input)
+    if input.index(/<!--\s*more\s*-->/i)
+      input.split(/<!--\s*more\s*-->/i)[1]
+    else
+      ""
+    end
+  end
+
   # Checks for excerpts (helpful for template conditionals)
   def has_excerpt(input)
     input =~ /<!--\s*more\s*-->/i ? true : false
@@ -73,6 +81,11 @@ module OctopressLiquidFilters
   # Extracts raw content DIV from template, used for page description as {{ content }}
   # contains complete sub-template code on main page level
   def raw_content(input)
+    /<div class="entry-content">(?<content>[\s\S]*?)<!--\s*more\s*-->/ =~ input
+    if ! (content.nil?)
+      return content
+    end
+
     /<div class="entry-content">(?<content>[\s\S]*?)<\/div>\s*<(footer|\/article)>/ =~ input
     return (content.nil?) ? input : content
   end
