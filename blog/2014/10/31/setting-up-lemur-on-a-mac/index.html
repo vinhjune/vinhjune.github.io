@@ -1,0 +1,518 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Setting up Lemur on a Mac - Vinh June | Blog</title>
+  <meta name="author" content="VinhJune">
+  
+  
+  <meta name="description" content="!(http://img.youtube.com/vi/r2aURZbVR38/0.jpg) Lemur is one of the most powerful and flexible MIDI controllers out there. When it comes to setting &hellip;">
+  
+  <meta property="og:title" content="Setting up Lemur on a Mac" />
+  <meta property="og:type" content="blog" />
+  <meta property="og:description" content="!(http://img.youtube.com/vi/r2aURZbVR38/0.jpg) Lemur is one of the most powerful and flexible MIDI controllers out there. When it comes to setting &hellip;">
+  
+  <meta property="og:url" content="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:site_name" content="Vinh June | Blog" />
+  <meta property="fb:admins" content="" />
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="canonical" href="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/">
+  <link href="/favicon.png" rel="icon">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Vinh June | Blog" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href='//fonts.googleapis.com/css?family=Black+Ops+One' rel='stylesheet' type='text/css'>
+
+
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js"></script>
+  <!--[if lt IE 9]>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <![endif]-->
+  <!--[if gte IE 9]><!-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  
+  <!--<![endif]-->
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/footnote.js"></script>
+  
+  <script src="/javascripts/jquery.exflexfixed-0.3.0.js"></script>
+  <script src="/javascripts/jquery.nailthumb.1.1.min.js"></script>
+  <script src="/javascripts/jquery.githubRepoWidget.min.js"></script>
+  <script src="/javascripts/monthly_archive.js"></script>
+  <script src="/javascripts/utils.js"></script>
+  
+</head>
+
+<body   >
+  <header role="banner"><h1>
+  <a href="/">
+  
+  Vinh June | Blog
+  </a>
+</h1>
+
+
+</header>
+  <nav role="navigation"><div class="main-navigation">
+  
+  <p>
+    
+    
+    <a href="https://twitter.com/vinhjune" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a>
+    
+    
+    <a href="https://www.facebook.com/vinhjune" title="Facebook"><i class="fa fa-facebook-square fa-2x"></i></a>
+    
+    
+    
+    
+    
+    
+    
+  </p>
+  
+  <p>
+    <p>
+  <a href="/blog/archives/" class="link_btn" >Archives</a>
+  <a href="/yourpage/" class="link_btn" >yourpage</a>
+</p>
+
+  </p>
+  
+  <p>
+    
+
+  </p>
+  
+  
+  
+</div>
+</nav>
+  <div id="main">
+    <div id="content">
+      <div><!-- post -->
+<article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  
+
+<!--
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<rdf:Description rdf:about="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/">
+<foaf:maker rdf:parseType="Resource">
+<foaf:holdsAccount>
+<foaf:OnlineAccount foaf:accountName="">
+<foaf:accountServiceHomepage rdf:resource="http://www.hatena.ne.jp/">
+</foaf:accountServiceHomepage>
+</foaf:OnlineAccount>
+</foaf:holdsAccount>
+</foaf:maker>
+</rdf:Description>
+</rdf:RDF>
+&#8211;>
+
+
+
+
+
+  <!-- google_ad_section_start -->
+  
+<header>
+  
+  <p class="meta">
+    
+
+
+
+<time class='entry-date' datetime='2014-10-31T15:18:31+01:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2014</span></span> <span class='time'>3:18 pm</span></time>
+    
+
+<span class="categories">
+  Posted in
+  
+    <a class='category' href='/blog/categories/music/'>Music</a>
+  
+</span>
+
+
+    
+
+<span class="tags">
+  Tagged as
+  
+    <a class='tag' itemprop='articleSection keywaords' href='/blog/tags/lemur/'>Lemur</a>, <a class='tag' itemprop='articleSection keywaords' href='/blog/tags/dj/'>dj</a>
+  
+</span>
+
+
+  </p>
+  
+  
+  
+  <h1 class="entry-title" itemprop="name headline">Setting up Lemur on a Mac</h1>
+  
+  
+  
+</header>
+
+
+<div class="sharing">
+  <ul>
+    
+    
+    <li class="twitter">
+      <a href="http://twitter.com/share"
+          class="twitter-share-button"
+          data-url="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/"
+          data-via="vinhjune"
+          data-counturl="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/">Tweet</a>
+    </li>
+    
+    
+    
+    
+    <li class="facebook_share">
+      <div class="fb-share-button"
+          data-type="button_count"
+          data-font="verdana"
+          data-href="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/"></div>
+    </li>
+    
+    
+    
+    
+    <li class="bookmark"><input class="link_btn add_bookmark"
+          type="button"
+          value="Favorite"
+          data-page_title="Setting up Lemur on a Mac - Vinh June | Blog"
+          data-page_url="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/"/></li>
+    
+  </ul>
+</div>
+
+
+
+
+<div class="entry-content">
+  <div class="group">
+    
+    <p><a href="http://www.youtube.com/watch?v=r2aURZbVR38">!(http://img.youtube.com/vi/r2aURZbVR38/0.jpg)</a></p>
+
+<div class="embed-video-container"><iframe src="http://www.youtube.com/embed/https://www.youtube.com/watch?v=r2aURZbVR38" allowfullscreen=""></iframe></div>
+<p>Lemur is one of the most powerful and flexible MIDI controllers out there. When it comes to setting up Lemur though, things are a bit more involved than the usual USB MIDI controller. The following article will take you step-by-step on setting up Lemur and how to configure Traktor for use with a custom MIDI map. The video above shows all of the steps from start to finish. Though the focus is on Mac, many of the general principles will also apply to PC.
+
+  </div>
+  <!-- more -->
+  <div class="group">
+    </p>
+
+<h1 id="getting-the-software">Getting the Software:</h1>
+
+<p>The Lemur app is available from the Apple App Store. Once purchased, head over to Liine.net and download the additional software that’s needed. The software includes two applications: the Lemur Editor which loads and edits templates, and the Lemur Daemon which works as a bridge between the audio software and the Lemur app.  You will need to register with Liine before downloading these. It’s also worth taking a look at the premium templates while at the site. There are hundreds of user templates created by the Lemur community and the premium ones are some of the best.</p>
+
+<h1 id="tech-overview">Tech Overview:</h1>
+
+<p>It’s helpful to have a bit of an understanding of how the different parts of Lemur work together. A Lemur setup includes four main components.  The first is the Lemur iPad app.  The next two are the Lemur Editor and Lemur Daemon that you downloaded from the site. Last is the ad hoc network or hardwired MIDI connection.  An ad hoc network is a computer to computer wireless network that’s created on the host computer.  In a Lemur setup, this ad hoc network consists of two devices: the iPad with the Lemur app on it and the computer running the Lemur Editor and audio software to be controlled.</p>
+
+<h1 id="steps-for-setting-up-lemur-on-a-mac">Steps for setting up Lemur on a Mac:</h1>
+
+<ol>
+  <li>First, make sure the Lemur Daemon is running. When on, the Daemon shows up as a small iconin the upper right of the desktop. You can set the Daemon to always launch at startup by clicking on the icon and clicking “Setup Daemon Preferences” from the dropdown menu.</li>
+  <li>Next it’s time to create the Ad Hoc network:
+    <ul>
+      <li>Click on the WiFi symbol  in the upper right of the desktop and select “create network” from the dropdown menu.</li>
+      <li>After giving the network a new name or leaving it at default, hit the create button.</li>
+      <li>Now on your iPad go into the “WiFi” area in the settings. You should see the name of theÂ network you just created. Click on it and verify that the iPad connects to it.</li>
+    </ul>
+
+    <p>Your iPad and host computer are now connected to eachother on their own ad hoc network.</p>
+  </li>
+  <li>Now you will connect the Lemur Editor on the host computer to the Lemur app on the iPad.
+    <ul>
+      <li>Run the Lemur App on your iPad.</li>
+      <li>Now start the Lemur Editor on the computer.</li>
+      <li>Once the Editor opens, press the small box with an arrow  in the upper right corner. Your iPad and its IP address should show up in the “connection” box that pops up. It may take a minute or two for your iPad to appear.</li>
+      <li>Double click on your iPad name in the “connection” box. The arrow button in the upper right of the Lemur Editor  should turn into a green square indicating a connection with the iPad.</li>
+    </ul>
+  </li>
+  <li>Finally it’s time to load a Lemur template into the iPad app. To do this, first open a template in the editor by double clicking on the .jzml file. Then click the arrow button   in the Editor and then double click your iPad in the “connection” box.</li>
+</ol>
+
+<p>Your Lemur template should now be loaded onto the iPad and ready to control.</p>
+
+<h2 id="extra-tips">Extra Tips:</h2>
+
+<ol>
+  <li>
+    <p>It’s possible to upload a template from your iPad to the Lemur Editor on the computer.  To upload a template, first click the arrow button  in the Editor.  Now, instead of double clicking on your iPad name in the “connection” box, highlight your iPad and press the download button at the bottom of the box.  Your template will now upload to the Editor.</p>
+  </li>
+  <li>
+    <p>The Lemur Editor can also mirror the slider movements and button presses you make on your iPad. This feature helps when modifying or creating templates from scratch. To turn on mirroring, click the small box with two arrows  in the upper right corner of the Editor. Once activated, the arrows in the box will turn green.</p>
+  </li>
+</ol>
+
+<h1 id="using-lemur-with-audio-software">Using Lemur with Audio Software:</h1>
+
+<p>Now that you can load templates between the Lemur Editor and Lemur iPad app, let’s take a look at how to setup an audio program like Traktor to use Lemurs MIDI ports.</p>
+
+<h2 id="traktor-preference-settings">Traktor Preference Settings:</h2>
+
+<ol>
+  <li>
+    <p>With Traktor running, open up the “Preferences” from the dropdown menu and click on “Controller Manager” located at the bottom of the lefthand side.</p>
+  </li>
+  <li>
+    <p>In the “Device Setup” area at the top, click on the “Load” button. Then from the dropdown menu select “Import TSI” and from the next menu click on “Import Other”.</p>
+  </li>
+  <li>
+    <p>Now locate the .TSI file you want to load into Traktor.</p>
+  </li>
+  <li>
+    <p>Finally, make sure that the “In Port” and “Out Port” in the “Device Setup” area are set to the correct Lemur MIDI ports. These port may be different depending on the Lemur template, but a good place to start is with “Daemon In 0″ and “Daemon Out 0″.</p>
+  </li>
+</ol>
+
+<p>Your Lemur template should now be MIDI mapped to Traktor.</p>
+
+<p>Traktor is just one of the many examples of music software that that Lemur can control. In fact, most other programs are even easier to set up as they won’t need any sort of .tsi file loaded in.  For these, setting up Lemur is pretty much the same as setting up a standard USB MIDI controller.</p>
+
+  </div>
+</div>
+<!-- </div><footer> * pseudo line for the function raw_content() &#8211;>
+
+
+
+  <!-- google_ad_section_end -->
+  <footer>
+    
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">VinhJune</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2014-10-31T15:18:31+01:00" class="updated"  data-updated="true" itemprop="dateModified"></time>
+      
+
+<span class="categories">
+  Posted in
+  
+    <a class='category' href='/blog/categories/music/'>Music</a>
+  
+</span>
+
+
+      
+
+<span class="tags">
+  Tagged as
+  
+    <a class='tag' itemprop='articleSection keywaords' href='/blog/tags/lemur/'>Lemur</a>, <a class='tag' itemprop='articleSection keywaords' href='/blog/tags/dj/'>dj</a>
+  
+</span>
+
+
+    </p>
+    
+    
+    
+<div class="sharing">
+  <ul>
+    
+    
+    <li class="twitter">
+      <a href="http://twitter.com/share"
+          class="twitter-share-button"
+          data-url="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/"
+          data-via="vinhjune"
+          data-counturl="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/">Tweet</a>
+    </li>
+    
+    
+    
+    
+    <li class="facebook_share">
+      <div class="fb-share-button"
+          data-type="button_count"
+          data-font="verdana"
+          data-href="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/"></div>
+    </li>
+    
+    
+    
+    
+    <li class="bookmark"><input class="link_btn add_bookmark"
+          type="button"
+          value="Favorite"
+          data-page_title="Setting up Lemur on a Mac - Vinh June | Blog"
+          data-page_url="http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/"/></li>
+    
+  </ul>
+</div>
+
+    
+    <p class="meta">
+      
+      <a class="basic-alignment left" href="/blog/2014/10/31/test-this-new-blog/" title="Previous Post: Start this new blog">&laquo; Start this new blog</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+
+
+
+
+<div class="center_wrapper">
+  
+
+</div>
+
+
+<section>
+  <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+
+
+
+
+</div><!-- post -->
+
+<aside class="sidebar">
+  
+  
+<section class="group">
+<h1>About Me</h1>
+
+
+</section>
+
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/10/31/setting-up-lemur-on-a-mac/">Setting up Lemur on a Mac</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/10/31/test-this-new-blog/">Start this new blog</a>
+      </li>
+    
+  </ul>
+</section>
+<section>
+  <h1>Monthly Archives</h1>
+  <div class="monthly_archive"><ul class="year_list"><li class="year">2014 (2)</li><ul class="month_list"><li class="month"><a href='/blog/2014/10/'>OCT (2)</a></li></ul></ul></div>
+</section>
+<section>
+  <h1>Categories</h1>
+  <ul id="category-list"><li><a href='/blog/categories/music'>Music (1)</a></li><li><a href='/blog/categories/random'>Random (1)</a></li></ul>
+</section>
+<section>
+  <h1>Tag Cloud</h1>
+    <span id="tag-cloud"><a href='/blog/tags/blog' style='font-size: 160.0%'>Blog(1)</a> <a href='/blog/tags/dj' style='font-size: 160.0%'>dj(1)</a> <a href='/blog/tags/lemur' style='font-size: 160.0%'>Lemur(1)</a> <a href='/blog/tags/octopress' style='font-size: 160.0%'>Octopress(1)</a> </span>
+</section>
+<div class="scroll-fixed">
+
+</div>
+  
+</aside>
+
+
+    </div><!-- content -->
+  </div><!-- main -->
+  <footer role="contentinfo"><div class="center_wrapper">
+  <div>
+    
+    <a href="mailto:">Contact</a>
+    
+  </div>
+  <div>
+    Copyright &copy; 2014 - VinhJune -
+    <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+    <span class="credit">, with theme <a href="https://github.com/rcmdnk/octogray">octogray</a></span>
+  </div>
+</div>
+
+</footer>
+  
+<script type="text/javascript">
+
+(function (w, d) {
+  var j, s = d.getElementsByTagName('script')[0],
+  a = function (u, i) {
+    if (!d.getElementById(i)) {
+      j = d.createElement('script');
+      j.src = u;
+      if (i) {j.id = i;}
+      s.parentNode.insertBefore(j, s);
+    }
+  };
+  
+  
+  a('//platform.twitter.com/widgets.js', 'twitter-wjs');
+  
+  
+  
+  
+  a('//connect.facebook.net/en_US/all.js#xfbml=1','facebook-jssdk');
+  
+  
+  
+  
+  
+  var disqus_shortname = 'vinhjune';
+  var disqus_script = '';
+  
+  var disqus_identifier = 'http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/';
+  var disqus_url = 'http://vinhjune.github.io/blog/2014/10/31/setting-up-lemur-on-a-mac/';
+  disqus_script = 'embed.js';
+  
+  a('//'+disqus_shortname+'.disqus.com/'+disqus_script);
+  
+  
+})(this, document);
+</script>
+
+
+
+
+</body>
+</html>

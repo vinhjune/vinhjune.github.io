@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Tag: Blog | Vinh June | Blog]]></title>
+  <link href="http://vinhjune.github.io/blog/tags/blog/atom.xml" rel="self"/>
+  <link href="http://vinhjune.github.io/"/>
+  <updated>2014-10-31T15:58:50+01:00</updated>
+  <id>http://vinhjune.github.io/</id>
+  <author>
+    <name><![CDATA[VinhJune]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Start this new blog]]></title>
+    <link href="http://vinhjune.github.io/blog/2014/10/31/test-this-new-blog/"/>
+    <updated>2014-10-31T01:07:58+01:00</updated>
+    <id>http://vinhjune.github.io/blog/2014/10/31/test-this-new-blog</id>
+    <content type="html"><![CDATA[<p>Finally I can install a decent #octopress . Couldn’t think that it would cost me the whole day :(
+Hopefully I can get use to <code>markdown</code> language really soon, I feel that octopress will be a nice tool to practice <code>programming skill</code></p>
+]]></content>
+  </entry>
+  
+</feed>
